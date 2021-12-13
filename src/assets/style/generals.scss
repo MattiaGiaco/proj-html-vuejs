@@ -1,0 +1,19 @@
+@import "~@fontsource/poppins/index.css";
+@import '~bootstrap/scss/bootstrap.scss';
+
+body{
+  font-family: "Poppins";
+  color: white;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mg_btn{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 12px;
+}
