@@ -1,6 +1,6 @@
 <template>
   <section class="d-flex justify-content-center align-items-center">
-    <div class=" text-center w-50">
+    <div class=" d-flex flex-column align-items-center w-50">
       <h4>“I’ve failed over and over again in my life. And that is why I succeed.”</h4>
       <div class="mg_line"></div>
       <p>Arcu auctor gravida nisl, congue sit nisi tincidunt eget proin. In lacinia lacus donec sed massa in ipsum eros, tristique. Gravida suspendisse etiam in iaculis</p>

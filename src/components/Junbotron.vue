@@ -7,7 +7,7 @@
       <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet</p>
       <div>
         <button class="mg_btn">Visit my YouTube channel</button>
-        <button class="mg_btn">Buy Avada today</button>
+        <button class="mg_btn">Buy Avada today <i class="fas fa-long-arrow-alt-right"></i></button>
       </div>
     </div>
   </section>
@@ -24,5 +24,8 @@ export default {
     height: 550px;
     background-image: linear-gradient(90deg, rgb(6, 6, 7) 45%, rgba(6, 6, 7, 0) 75%), url('../assets/img/slider82x-scaled.jpg');
     background-size: cover;
+    .mg_line{
+      content: '\e913';
+    }
   }
 </style>

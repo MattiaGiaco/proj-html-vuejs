@@ -5,6 +5,9 @@ body{
   font-family: "Poppins";
   color: white;
 }
+a{
+  text-decoration: none;
+}
 ul{
   list-style: none;
   margin: 0;
@@ -16,4 +19,9 @@ ul{
   border-radius: 30px;
   color: white;
   font-size: 12px;
+}
+.mg_line{
+  width: 50px;
+  border: 3px solid #fff941;
+  margin: 20px 0;
 }
