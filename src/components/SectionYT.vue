@@ -129,6 +129,7 @@ export default {
       }
     }
     .mg_pl_video{
+      margin-bottom: 100px;
         .mg_box{
           width: 93%;
           height: 230px;
