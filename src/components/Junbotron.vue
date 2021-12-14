@@ -3,9 +3,9 @@
     <div class="junbo_info container">
       <p>Certified fitness professional</p>
       <h2>Take control of your health</h2>
-      <div class="line"></div>
+      <div class="mg_line"></div>
       <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet</p>
-      <div class="buttons">
+      <div>
         <button class="mg_btn">Visit my YouTube channel</button>
         <button class="mg_btn">Buy Avada today</button>
       </div>

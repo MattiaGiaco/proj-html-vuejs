@@ -2,6 +2,7 @@
   <main>
    <Junbotron />
    <SectionInfo />
+   <SectionYT />
   </main>
 </template>
 
@@ -9,12 +10,14 @@
 
 import Junbotron from './Junbotron.vue'
 import SectionInfo from './SectionInfo.vue'
+import SectionYT from './SectionYT.vue'
 
 export default {
   name: 'Main',
   components: {
     Junbotron,
-    SectionInfo
+    SectionInfo,
+    SectionYT
   }
 }
 </script>

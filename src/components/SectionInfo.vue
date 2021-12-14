@@ -24,11 +24,13 @@
           </div>
         </div>
       </div>
-      <div class="quote">
+      <div class="mg_quote">
         <p class="text-center">"How you respond to the challenge in the second half will determine what you become after the game, whether you are a winner or a loser."</p>
-        <div class="line"></div>
-        <div class="author">
-
+        <div class="mg_line"></div>
+        <div class="mg_author text-center">
+          <img src="../assets/img/avatar-1-2x.jpg" alt="Brad Johnson" class="mx-3">
+          <span>Brad Johnson</span>
+          <span class="mx-3" style="color:#bcbcbc">Las Vegas</span>
         </div>
       </div>
     </div>
@@ -44,7 +46,8 @@ export default {
 
 <style lang="scss" scoped>
 section{
-  height: 700px;
+  height: 100%;
+  padding-bottom: 150px;
   background-image: linear-gradient(150deg, #0219eb 0%,#d5000b 100%);
   .mg_fusion{
     position: absolute;
@@ -81,12 +84,19 @@ section{
       }
     }
   }
-  .quote{
+  .mg_quote{
     width: 60%;
     margin: 0 auto;
     padding-top: 450px;
     p{
       font-size: 32px;
+    }
+    .mg_author{
+      img{
+        width: 50px;
+        border-radius: 50%;
+        
+      }
     }
   }
 }
