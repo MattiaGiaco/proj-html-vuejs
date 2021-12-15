@@ -7,6 +7,7 @@ body{
 }
 a{
   text-decoration: none;
+  color: black;
 }
 ul{
   list-style: none;
@@ -19,6 +20,25 @@ ul{
   border-radius: 30px;
   color: white;
   font-size: 12px;
+  background-color: #4154fe;
+  transition: all 0.5s;
+  &:hover{
+    background-color: #ec5a57;
+  }
+}
+.mg_btn_transparent{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 12px;
+  background-color: transparent;
+  border: 1px solid #78787a;
+  transition: all 0.5s;
+  &:hover{
+    background-color: white;
+    color: black;
+  }
 }
 .mg_line{
   width: 50px;

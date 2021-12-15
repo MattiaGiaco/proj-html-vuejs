@@ -9,7 +9,7 @@
 
       <div class="mg_menu d-flex align-items-center">
         <ul class="d-flex">
-          <li><a href="#">Home</a></li>
+          <li><a href="#" class="selected mg_white">Home</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Videos</a></li>
@@ -19,7 +19,7 @@
 
         <button class="mg_btn">Schedule a workout</button>
 
-        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        <a href="#"><i class="fas fa-shopping-cart mx-4"></i></a>
         <a href="#"><i class="fas fa-search"></i></a>
       </div>
 
@@ -38,14 +38,26 @@ export default {
     height: 100px;
     background-color: #060606;
     .mg_menu{
-      
+      li{
+        margin: 0 10px;
+      }
+      .selected.mg_white{
+        color: white;
+      }
       li a{
         text-decoration: none;
         color: #78787a;
+        font-weight: 600;
+        &:hover{
+          color: white;
+        }
       }
     }
-    button{
-      background-color: #4154fe;
+    a{
+      color: #78787a;
+      &:hover{
+        color: white;
+      }
     }
   }
 </style>

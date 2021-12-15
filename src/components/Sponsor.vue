@@ -51,6 +51,12 @@ export default {
     color: black;
     .mg_sponsor{
       height: 250px;    
+      .mg_line{
+        border-color: #4257ef;
+      }
+      p{
+        color: #78787a;
+      }
     }
   }
 </style>

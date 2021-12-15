@@ -4,7 +4,7 @@
       <a href="#"><i class="fas fa-play my-4"></i></a>
       <h3 class=" fs-1">Crossfit workout of the day</h3>
       <h4 style="color:#fff941;">November 15th, 2019</h4>
-      <a href="#">View all videos <i class="fas fa-long-arrow-alt-right"></i></a>
+      <a href="#" style="color:white;">View all videos <i class="fas fa-long-arrow-alt-right"></i></a>
     </div>
   </section>
 </template>
@@ -25,6 +25,10 @@ export default {
       padding: 40px;
       border-radius: 50%;
       background-color: white;
+      transition: all 0.3s;
+      &:hover{
+        color: #ff0000;
+      }
     }
   }
 </style>

@@ -6,22 +6,22 @@
       </div>
       
       <div class="yt_info">
-        <p>Tune up your workouts</p>
+        <p style="color:#4154fe">Tune up your workouts</p>
         <h3>The best health & fitness advice online</h3>
 
         <div class="mg_yt_channel my-4 d-flex">
-          <img src="../assets/img/unnamed.jpg" alt="Yt logo" width="40px">
+          <img src="../assets/img/unnamed.jpg" alt="Yt logo" width="50px">
           <div class="mx-2">
             <span style="color:#78787a;">ThemeFusion</span>
-            <div class="mg_yt">
+            <div class="mg_yt mt-2">
               <span><i class="fas fa-play"></i> YouTube</span>
               <span style="color:#78787a;">999+</span>
             </div>
           </div>
         </div>
 
-        <p>Arcu eu facilisi ut quisque placerat nunc habitant. Magna semper mauris, venenatis, leo integer sit pellentesque.</p>
-        <button class="mg_btn" style="background-color:#ff0000;"><i class="fab fa-youtube"></i> Visit my YouTube channel</button>
+        <p style="color:#78787a;">Arcu eu facilisi ut quisque placerat nunc habitant. Magna semper mauris, venenatis, leo integer sit pellentesque.</p>
+        <button class="mg_btn"><i class="fab fa-youtube"></i> Visit my YouTube channel</button>
       </div>
     </div>
 
@@ -92,6 +92,10 @@ export default {
           padding: 40px;
           border-radius: 50%;
           background-color: white;
+          transition: all 0.3s;
+          &:hover{
+            color: #ff0000;
+          }
         }
       }
       .yt_info{
@@ -100,6 +104,12 @@ export default {
         h3{
           font-size: 45px;
           font-weight: 700;
+        }
+        button{
+          background-color: #ff0000;
+          &:hover{
+            background-color: #fd5555;
+          }
         }
         .mg_yt_channel{
           font-size: 14px;
@@ -130,6 +140,9 @@ export default {
     }
     .mg_pl_video{
       margin-bottom: 100px;
+        span{
+          color: #4257ef;
+        }
         .mg_box{
           width: 93%;
           height: 230px;
