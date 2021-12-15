@@ -9,12 +9,12 @@
 
       <div class="mg_menu d-flex align-items-center">
         <ul class="d-flex">
-          <li><a href="#" class="selected mg_white">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Videos</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Store</a></li>
+          <li
+            v-for="(item, index) in menuList"
+            :key="index"
+          >
+            <a :href="item.url" :class="{active: item.current}">{{item.text}}</a>
+          </li>
         </ul>
 
         <button class="mg_btn">Schedule a workout</button>
@@ -30,6 +30,9 @@
 <script>
 export default {
   name: 'Header',
+  props: {
+    menuList: Object
+  }
 }
 </script>
 
@@ -41,13 +44,11 @@ export default {
       li{
         margin: 0 10px;
       }
-      .selected.mg_white{
-        color: white;
-      }
       li a{
         text-decoration: none;
         color: #78787a;
         font-weight: 600;
+        &.active,
         &:hover{
           color: white;
         }
