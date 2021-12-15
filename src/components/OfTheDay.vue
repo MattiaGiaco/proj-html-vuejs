@@ -20,6 +20,7 @@ export default {
     height: 600px;
     background-image: linear-gradient(151deg, rgba(6, 25, 231, 0.8) 35%, rgba(206, 1, 18, 0.8) 100%), url('../assets/img/banner14-2x.jpg');
     background-size: cover;
+    filter: grayscale(50%) contrast(110%) saturate(80%);
     .fa-play{
       font-size: 20px;
       padding: 40px;

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="mg-title d-flex justify-content-between mb-3">
         <h5>Latest articles</h5>
-        <a href="#">Read all articles <i class="fas fa-chevron-right"></i></a>
+        <a class="mx-5" href="#">Read all articles <i class="fas fa-chevron-right"></i></a>
       </div>
 
       <div class="mg_pl_video">
@@ -58,6 +58,7 @@ export default {
           width: 93%;
           height: 230px;
           margin: 10px 0px;
+          cursor: pointer;
         }
         .mg_bg1{
           background-image: url(../assets/img/blog1-2x.jpg);

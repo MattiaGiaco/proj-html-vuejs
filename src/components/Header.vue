@@ -45,7 +45,6 @@ export default {
         margin: 0 10px;
       }
       li a{
-        text-decoration: none;
         color: #78787a;
         font-weight: 600;
         &.active,

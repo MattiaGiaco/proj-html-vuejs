@@ -28,7 +28,7 @@
     <div class="mg_playlist container">
       <div class="mg-title d-flex justify-content-between">
         <h5>Featured playlist</h5>
-        <a href="#">View all videos <i class="fas fa-chevron-right"></i></a>
+        <a class="mx-5" href="#">View all videos <i class="fas fa-chevron-right"></i></a>
       </div>
 
       <div class="mg_pl_video">
@@ -148,7 +148,6 @@ export default {
           height: 230px;
           margin: 10px 0px;
           border-radius: 0px 4px 30px 0px;
-          background-color: firebrick;
           .fa-play{
             font-size: 10px;
             padding: 20px;

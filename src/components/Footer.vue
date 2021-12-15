@@ -69,6 +69,9 @@ export default {
       }
       ul{
         line-height: 40px;
+        li a:hover{
+          text-decoration: underline;
+        }
       }
     }
     .mg_copyright{

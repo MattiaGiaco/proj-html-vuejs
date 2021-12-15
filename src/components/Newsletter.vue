@@ -36,7 +36,6 @@ export default {
     button{
       margin-left: 20px;
       padding: 10px 70px;
-      background-color: #4154fe;
     }
   }
 </style>

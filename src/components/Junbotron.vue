@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class=" position-relative">
     <div class="mg_junbo_info container">
       <p style="color:#bc0428">Certified fitness professional</p>
       <h2>Take control of your health</h2>
@@ -9,6 +9,9 @@
         <button class="mg_btn"><i class="fab fa-youtube"></i> Visit my YouTube channel</button>
         <button class="mg_btn_transparent mx-3">Buy Avada today <i class="fas fa-long-arrow-alt-right"></i></button>
       </div>
+    </div>
+    <div class="mg_play">
+      <a href="#"><i class="fas fa-play"></i></a>
     </div>
   </section>
 </template>
@@ -28,6 +31,21 @@ export default {
       padding-top: 5%;
       h2{
         font-size: 45px;
+      }
+    }
+    .mg_play{
+      position: absolute;
+      top: 30%;
+      right: 20%;
+      .fa-play{
+        font-size: 20px;
+        padding: 40px;
+        border-radius: 50%;
+        background-color: white;
+        transition: all 0.3s;
+        &:hover{
+          color: #ff0000;
+        }
       }
     }
   }
